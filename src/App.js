@@ -1,8 +1,10 @@
 import './App.css';
-import Search from './components/Search';
-import Weather from './components/Weather';
 
 import { useState } from 'react';
+
+// Components
+import Search from './components/Search';
+import Weather from './components/Weather';
 
 function App() {
 	const [location, setLocation] = useState('')
